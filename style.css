@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient( to right, #00DDFB, #00709F) ;
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+body,
+button,
+input {
+  font-family: 'DM Sans', sans-serif;
+}
+
+button{
+    background-color: #7879F1;
+    color: #ffffff; 
+    font-weight: bold;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+    transition:  .3s;
+}
+
+button:hover{
+    background-color: #6363ce;
+}
+
+
+.hide{
+    display: none;
+}
+
+main{
+    background-color: #ffffff;
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    margin-top: -12rem;
+    width: min(42.8rem, 90%);
+    text-align: center;
+    /*define que se a tela for menor que 42rem, a caixa vai ocupar 90%*/
+}
+
+/*screen1*/
+h1{
+    font-family: 'Montserrat', sans-serif;
+ color: #34355B;
+ font-size: 2.4rem;
+ margin-bottom: 1.6rem;
+}
+
+form{
+    margin-top: 2.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    color: hsla(238, 27%, 28%, 0.808);
+}
+
+
+input, 
+button{
+    padding: 1.6rem;
+    border: none;
+}
+
+input{
+    border-radius: 8px 0 0 8px;
+    background-color: #DCE2E0;
+    width: 7rem;
+}
+
+/*screen2*/
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3rem;;
+    font-weight:200;
+margin-bottom: 3.3rem;
+}
+
+.screen2 button{
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
